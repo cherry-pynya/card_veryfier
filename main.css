@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vaidator {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 400px;
+    min-height: 200px;
+    display: flex;
+}
+
+.validator-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+.validator-list-item {
+    margin-right: 5px;
+}
+
+.vaidator-input {
+    -moz-appearance: textfield;
+}
+
+.vaidator-input::-webkit-inner-spin-button { 
+    display: none;
+}
+
+.validator-list-item {
+    display: block;
+}
+
+.card {
+    text-indent: -9999px;
+    background-position: 0 0;
+    background-size: cover;
+    width: 39px;
+    height: 25px;
+    float: left;
+}
+
+.card.mir {
+    background-image: url(/assets/img/mir.png);
+}
+
+.card.visa {
+    background-image: url(/assets/img/visa.png);
+}
+
+.card.mastercard {
+    background-image: url(/assets/img/mastercard.png);
+}
+
+.card.americaExpress {
+    background-image: url(/assets/img/american_express.png);
+}
+
+.card.maestro {
+    background-image: url(/assets/img/maestro.png);
+}
+
+.card.unionPay {
+    background-image: url(/assets/img/unionpay.png);
+}
+
+.grey {
+    filter: grayscale(100%); 
+}
+
+.vaidator-massage {
+    margin-top: 10px;
+}
